@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+    Program Name: PONG Game
+    Author Name: SeungChan Kim
+    Created on : 22-Apr-2018, 2:35:44 PM
+    Updated on : 27-Apr-2018, 10:55:00 AM
+    Desccription: Simple PONG Game implemented with HTML Canvas and JavaScript
+-->
+<html>
+    <head>
+        <title>CHAN's PONG GAME</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="main.css"/>
+        <script src="pong.js"></script>
+    </head>
+
+    <!-- Invoke the drawFrame function when load the page-->
+    <body onload="drawFrame()">
+
+      <h1>PONG Game</h1>
+      <canvas id="canvas" width="1200" height="420"></canvas>
+
+      <button id="start" type="button" name="game-start" onclick="startAnimation()">Game Start!</button>
+      <p>Player1: UP(w) DOWN(s)  /  Player2: UP(↑) DOWN(↓)</p>
+
+    </body>
+</html>
